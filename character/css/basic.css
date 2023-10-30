@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto&display=swap');
+
+header{
+    text-align: center;
+    border-bottom:black 3px solid;
+    margin-bottom:35px;
+}
+
+header img{
+    margin-bottom:0px;
+}
+
+nav ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    background-color: yellow;
+    overflow: hidden;
+    border-bottom:black 2px solid;
+    display: flex;
+    justify-content: space-between;
+    padding-left:10%;
+    padding-right:10%;
+}
+
+nav li {
+    float: left;
+}
+  
+nav a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover{
+background-color: white;
+}
+
+img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border:black 3px solid;
+}
+
+h1{
+    font-size: 110px;
+    color:white ;
+    font-family: 'Permanent Marker', cursive;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+h3{
+    color:yellow;
+    font-size:40px;
+    text-align:center;
+    font-family: 'Permanent Marker', cursive;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color:black;
+
+}
+
+h4{
+    font-size:30px;
+    text-align:center;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+section{
+    width: 75vw;
+    margin: auto;
+}
+
+p{
+    line-height: 25px;
+    font-family: 'Roboto', sans-serif;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+p a{
+    color:whitesmoke;
+    text-decoration:none;
+}
+
+p a:hover{
+    color:yellow
+}
+
+body{
+    background-image: linear-gradient(to bottom, yellow, #e67728, #e98e48, #eba469, #ecb88a, #edccad);
+    margin:0px;
+}
+
+section{
+    background-color: #e67728;
+    border: black solid 3px;
+    margin-top:10px;
+}
+
+figcaption{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    text-align:center;
+    padding-bottom:10px;
+}
+
+footer{
+    text-align:center;
+    border-top:black 2px solid;
+    margin-top:10px;
+}
+
+.gradiantColor1{
+    background-color:#edccad;
+}
+
+.gradiantColor2{
+    background-color:#ecb88a;
+}
+
+.gradiantColor3{
+    background-color:#eba469;
+}
+
+.gradiantColor4{
+    background-color:#e98e48;
+}
+
+.centered{
+    text-align:center;
+}
+
+.imgNeedMoreSpace{
+    margin-bottom:10px;
+    margin-top:10px;
+}
+
+.imgNoBorder{
+    border:none;
+}
